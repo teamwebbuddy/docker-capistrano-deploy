@@ -1,4 +1,4 @@
-# Docker Ansible Deploy
+# Docker Capistrano Deploy
 A minimal docker image to run project builds and deploy with capistrano.
 
 It contains the following packages:
