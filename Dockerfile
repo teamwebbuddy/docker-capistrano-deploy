@@ -5,7 +5,7 @@
 FROM ruby:2.2-alpine
 
 # install build-base and openssh
-RUN apk add --no-cache build-base openssh
+RUN apk add --no-cache build-base git openssh
 
 # cpy Gemfile into the image
 COPY Gemfile /root/Gemfile
